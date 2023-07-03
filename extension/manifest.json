@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Weather Extension",
+    "version": "1.0",
+    "description": "Displays weather information for a given city.",
+    "permissions": [
+        "http://api.openweathermap.org/*",
+        "http://*/*",
+        "https://*/*"
+      ],
+    "icons": {
+      "48": "icon.png"
+    },
+    "browser_action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
